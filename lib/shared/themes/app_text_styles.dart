@@ -1,111 +1,111 @@
-import  'package:flutter/material.dart';
-import  'package:google_fonts/google_fonts.dart';
-import  'package:payflow/shared/themes/app_colors.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:payflow/shared/themes/app_colors.dart';
 
 class TextStyles {
   static final titleHome = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   36,
+    fontSize: 32,
     fontWeight: FontWeight.w600,
+    color: AppColors.heading,
   );
   static final titleRegular = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   20,
+    fontSize: 20,
     fontWeight: FontWeight.w400,
+    color: AppColors.background,
   );
   static final titleBoldHeading = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   20,
+    fontSize: 20,
     fontWeight: FontWeight.w600,
+    color: AppColors.heading,
   );
   static final titleBoldBackground = GoogleFonts.lexendDeca(
-    color:      AppColors.background,
-    fontSize:   20,
+    fontSize: 20,
     fontWeight: FontWeight.w600,
+    color: AppColors.background,
   );
   static final titleListTile = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   17,
+    fontSize: 17,
     fontWeight: FontWeight.w600,
+    color: AppColors.heading,
   );
   static final trailingRegular = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   16,
+    fontSize: 16,
     fontWeight: FontWeight.w400,
+    color: AppColors.heading,
   );
   static final trailingBold = GoogleFonts.lexendDeca(
-    color:      AppColors.heading,
-    fontSize:   16,
+    fontSize: 16,
     fontWeight: FontWeight.w600,
+    color: AppColors.heading,
   );
   static final buttonPrimary = GoogleFonts.inter(
-    color:      AppColors.primary,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w400,
+    color: AppColors.primary,
   );
   static final buttonHeading = GoogleFonts.inter(
-    color:      AppColors.heading,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w400,
+    color: AppColors.heading,
   );
   static final buttonGray = GoogleFonts.inter(
-    color:      AppColors.gray,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w400,
+    color: AppColors.gray,
   );
   static final buttonBackground = GoogleFonts.inter(
-    color:      AppColors.background,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w400,
+    color: AppColors.background,
   );
   static final buttonBoldPrimary = GoogleFonts.inter(
-    color:      AppColors.primary,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w700,
+    color: AppColors.primary,
   );
   static final buttonBoldHeading = GoogleFonts.inter(
-    color:      AppColors.heading,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w700,
+    color: AppColors.heading,
   );
   static final buttonBoldGray = GoogleFonts.inter(
-    color:      AppColors.gray,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w700,
+    color: AppColors.gray,
   );
   static final buttonBoldBackground = GoogleFonts.inter(
-    color:      AppColors.background,
-    fontSize:   17,
+    fontSize: 15,
     fontWeight: FontWeight.w700,
+    color: AppColors.background,
   );
-  static final captionBackground = GoogleFonts.lexendDeca(
-    color:      AppColors.background,
-    fontSize:   13,
+  static final captionBackground = GoogleFonts.inter(
+    fontSize: 13,
     fontWeight: FontWeight.w400,
+    color: AppColors.background,
   );
-  static final captionShape = GoogleFonts.lexendDeca(
-    color:      AppColors.shape,
-    fontSize:   13,
+  static final captionShape = GoogleFonts.inter(
+    fontSize: 13,
     fontWeight: FontWeight.w400,
+    color: AppColors.shape,
   );
-  static final captionBody = GoogleFonts.lexendDeca(
-    color:      AppColors.body,
-    fontSize:   13,
+  static final captionBody = GoogleFonts.inter(
+    fontSize: 13,
     fontWeight: FontWeight.w400,
-  );  
-  static final captionBoldBackground = GoogleFonts.lexendDeca(
-    color:      AppColors.background,
-    fontSize:   13,
-    fontWeight: FontWeight.w600,
+    color: AppColors.body,
   );
-  static final captionBoldShape = GoogleFonts.lexendDeca(
-    color:      AppColors.shape,
-    fontSize:   13,
+  static final captionBoldBackground = GoogleFonts.inter(
+    fontSize: 13,
     fontWeight: FontWeight.w600,
-  );  
-  static final captionBoldBody = GoogleFonts.lexendDeca(
-    color:      AppColors.body,
-    fontSize:   13,
+    color: AppColors.background,
+  );
+  static final captionBoldShape = GoogleFonts.inter(
+    fontSize: 13,
     fontWeight: FontWeight.w600,
+    color: AppColors.shape,
+  );
+  static final captionBoldBody = GoogleFonts.inter(
+    fontSize: 13,
+    fontWeight: FontWeight.w600,
+    color: AppColors.body,
   );
 }
